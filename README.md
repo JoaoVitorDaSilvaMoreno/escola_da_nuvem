@@ -83,3 +83,18 @@ Crie um programa que:
 • Se está aprovado (média ≥ 7)
 • Mostre tudo organizado na tela
 _______________________________________________________________________________________________________________________________________
+Atividades funções python
+
+1. Crie um programa que tenha uma função que:
+Receba dois números
+Retorne o maior deles.
+
+2. Crie um programa, cuja função:
+Receba um valor em Reais
+Retorne o valor com 15% de imposto.
+
+3. Crie um programa que tenha:
+Uma função para calcular o IMC
+Uma função para classificar o IMC
+Usar as duas funções e retornar ao usuário tanto o valor de IMC e a
+categoria.
