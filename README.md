@@ -98,3 +98,47 @@ Uma função para calcular o IMC
 Uma função para classificar o IMC
 Usar as duas funções e retornar ao usuário tanto o valor de IMC e a
 categoria.
+_______________________________________________________________________________________________________________________________________
+Treino em Python
+
+Contar números pares até N
+• Escreva um programa que receba um número N e conte quantos números pares existem
+de 1 até N
+
+Senha com tentativas
+• Escreva um programa que solicite uma senha e permita até 3 tentativas. Se acertar, exiba
+“Acesso permitido”, senão “Bloqueado”.
+
+Somatório até zero
+• Escreva um programa que leia números até o usuário digitar 0. Ao final, exiba a soma dos
+números digitados.
+• Exemplo: usuário digita 3 = operação 3+0(sendo zero o total anterior)
+usuário digita 5 = operação 5 + 3(sendo 3 o valor do total anterior)
+• Usuário digita 7 = operação 7 + 8(sendo 8 o valor do total anterior)
+
+Menu interativo
+• Crie um menu com opções:
+o 1 → Somar dois números
+o 2 → Tabuada
+o 0 → Sair
+• Use while para repetir até escolher sair.
+o O programa deve ao ser selecionada a opção 1, solicitar que o usuário digite os
+valores e retornar o total da soma
+o O programa deve quando informado a opção 2, solicitar o número para a
+tabuada e retornar para o usuário a tabuada correspondente ao número
+informado:
+5 X 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+o Ao finalizar o programa exibir uma mensagem ao usuário:
+“Obrigada por utilizar o app EDN cálculos, se precisar de um novo cálculo volte a
+nos procurar.”
+
+Crie um programa que:
+• Permita cadastrar alunos com nome e idade.
+• Armazene os dados em uma lista.
+• Exiba um menu com opções:
+o 1 → Cadastrar aluno
+o 2 → Listar alunos cadastrados
+o 0 → Sair
+• Use variáveis, if/else e laços de repetição para controlar o fluxo.
