@@ -142,3 +142,43 @@ o 1 → Cadastrar aluno
 o 2 → Listar alunos cadastrados
 o 0 → Sair
 • Use variáveis, if/else e laços de repetição para controlar o fluxo.
+_______________________________________________________________________________________________________________________________________
+O Conversor de Temperatura do Data Center
+
+Foco: Entender a passagem de parâmetros e o retorno simples de valores
+(return).
+
+📝 Enunciado:
+Os servidores de um Data Center possuem sensores automáticos que medem a
+temperatura interna em graus Fahrenheit (°F). No entanto, a equipe de monitoramento do
+Brasil precisa ler esses dados em graus Celsius (°C).
+Crie um programa em Python que tenha uma função chamada converter_para_celsius.
+Essa função deve receber a temperatura em Fahrenheit como parâmetro, calcular a
+conversão e retornar o valor em Celsius. No programa principal, solicite a temperatura ao
+usuário, chame a função e exiba o resultado formatado com duas casas decimais.
+● Fórmula de conversão: C = (F - 32) x 5/9
+
+📝 Enunciado:
+Uma empresa de suporte técnico N1 atende três tipos de demandas de clientes: "sistema",
+"rede" ou "hardware". O tempo limite de atendimento (SLA) muda de acordo com o setor
+afetado.
+Crie um programa que tenha uma função chamada verificar_sla. Ela deve receber o nome
+do setor afetado, tratar o texto para evitar erros de digitação e retornar a string com o
+tempo padrão de atendimento. Se o setor digitado for inválido, deve retornar "Setor
+desconhecido".
+● Regras de Negócio:
+○ Se for "sistema" -> Retornar "SLA: 4 horas (Prioridade Média)"
+○ Se for "rede" -> Retornar "SLA: 2 horas (Prioridade Alta)"
+○ Se for "hardware" -> Retornar "SLA: 24 horas (Prioridade Baixa)"
+
+📝 Enunciado:
+Para monitorar a qualidade do link de internet de uma filial, o sistema de suporte realizou 4
+testes automáticos de resposta de rede (Ping), medidos em milissegundos (ms).
+Crie um programa com duas funções que trabalhem juntas:
+1. A primeira função deve se chamar calcular_media_ping. Ela recebe a lista de testes,
+soma todos os valores, divide pela quantidade de testes e retorna a média
+aritmética calculada.
+2. A segunda função deve se chamar avaliar_conexão. Ela recebe o número da média
+calculado pela primeira função. Se a média for menor ou igual a 50ms, ela retorna
+a mensagem "Conexão Estável". Caso contrário, retorna "Aviso: Conexão instável
+ou sob alta carga".
